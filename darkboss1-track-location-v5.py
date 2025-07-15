@@ -156,7 +156,7 @@ def IP_Track():
     ip1 = socket.gethostbyname(hostname)
     print(f"{Re}\nYour Computer Name is:{hostname}")
     print(f'{Re}\n Your Computer IP Address is:{ip1}')
-    ip = input(f"""\n{Re}┌─[{Cy}GhOsTGD{Blu}~{Wh}@HOME{Re}/IP-Track{Re}]
+    ip = input(f"""\n{Re}┌─[{Cy}darkboss1{Blu}~{Wh}@HOME{Re}/IP-Track{Re}]
 └──╼{Wh}$ Enter IP Target ==>  """) # INPUT IP ADDRESS
     print()
     print(f' {Wh}============= {Gr}SHOW INFORMATION IP ADDRESS {Wh}=============')
@@ -200,7 +200,7 @@ def IP_Track():
 def Fake_Sms():
     clear()
     sms()
-    phone =  input(f"""\n{Re}┌─[{Cy}GhOsTGD{Blu}~{Wh}@HOME{Re}/Fake-SMS{Re}]
+    phone =  input(f"""\n{Re}┌─[{Cy}darkboss1{Blu}~{Wh}@HOME{Re}/Fake-SMS{Re}]
 └──╼{Wh}$ Enter number of the victim ==>  """)
     print(f">>> {phone}")
     message = input(f"\n[*] ENTER YOUR MSG           :{Cy}")
@@ -219,7 +219,7 @@ def Fake_Sms():
 def phoneGW():
     clear()
     phoneTR()
-    User_phone = input(f"""\n{Re}┌─[{Cy}GhOsTGD{Blu}~{Wh}@HOME{Re}/PhoneTR{Re}]
+    User_phone = input(f"""\n{Re}┌─[{Cy}darkboss1{Blu}~{Wh}@HOME{Re}/PhoneTR{Re}]
 └──╼{Wh}$ Enter phone number target ==> {Wh} Ex [+6281xxxxxxxxx]  """)  # INPUT NUMBER PHONE
     default_region = "ID"  # DEFAULT NEGARA INDONESIA
 
@@ -263,7 +263,7 @@ def TrackLu():
     clear()
     infor()
     try:
-        username = input(f"""\n{Re}┌─[{Cy}GhOsTGD{Blu}~{Wh}@HOME{Re}/Username-Tracker{Re}]
+        username = input(f"""\n{Re}┌─[{Cy}darkboss1{Blu}~{Wh}@HOME{Re}/Username-Tracker{Re}]
 └──╼{Wh}$ Enter username on social media  ==>  """)
         results = {}
         social_media = [
@@ -310,9 +310,9 @@ def TrackLu():
 def qr():
     clear()
     qrBa()
-    img1 =  input(f"""\n{Re}┌─[{Cy}GhOsTGD{Blu}~{Wh}@HOME{Re}/QR-CODE{Re}]
+    img1 =  input(f"""\n{Re}┌─[{Cy}darkboss1{Blu}~{Wh}@HOME{Re}/QR-CODE{Re}]
 └──╼{Wh}$ Some data here  ==>  """)
-    file = input(f"""\n{Re}┌─[{Cy}GhOsTGD{Blu}~{Wh}@HOME{Re}/QR-CODE{Re}]
+    file = input(f"""\n{Re}┌─[{Cy}darkboss1{Blu}~{Wh}@HOME{Re}/QR-CODE{Re}]
 └──╼{Wh}$ Name of file  ==>  """)
     img = qrcode.make(f"{img1}")
     type(img)  # qrcode.image.pil.PilImage
@@ -426,8 +426,8 @@ def run_banner():
     stderr.writelines(f"""{Wh}
 
      .'``'.      ...           {Wh}|----------------------------------------|
-     :o  o `....'`  ;          {Wh}| {Gr}GhOsTGD - TRACKER - IP ADDRESS         {Wh}|
-     `. O         :'           {Wh}|       {Gr}@CODE BY GHERIS                  {Wh}|
+     :o  o `....'`  ;          {Wh}| {Gr}darkboss1 - TRACKER - IP ADDRESS         {Wh}|
+     `. O         :'           {Wh}|       {Gr}@CODE BY darkboss1                  {Wh}|
        `':          `.         {Wh}|----------------------------------------|
          `:.          `.
           : `.         `.
